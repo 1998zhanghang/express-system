@@ -5,7 +5,11 @@ class App extends Component {
   render() {
     return (
      <div>
-       开始啦!
+       <div>开始啦!</div>
+       <div height="100px">  
+          <img alt=" " src={[require("./picture/express.jpeg")]} />
+      </div>
+      
      </div>
     );
   }
